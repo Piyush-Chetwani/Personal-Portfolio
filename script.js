@@ -69,10 +69,12 @@ $(document).ready(function(){
             }
         }
     });
+
 });
 
 function myFunction() {
    var body = document.getElementById("body");
+   body.classList.toggle("day-mode");
    body.classList.toggle("dark-mode");
    var desc = document.getElementById("desc");
    desc.classList.toggle("typing-2");

@@ -46,8 +46,25 @@
 
 
     <!-- about section start -->
-    <div id="body">
-      <button onclick="myFunction()">Toggle dark mode</button>
+    <div id="body" class="day-mode">
+      <!-- <button onclick="myFunction()"> kjhgvghjhv </button> -->
+      <div id="toggle">
+        <div class="toggle-wrapper">
+        <div class="toggle dog-rollover">
+          <input id="doggo" type="checkbox"  onclick="myFunction()"/>
+          <label class="toggle-item" for="doggo">
+            <div class="dog">
+              <div class="ear"></div>
+              <div class="ear right"></div>
+              <div class="face">
+                <div class="eyes"></div>
+                <div class="mouth"></div>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
       <section class="about" id="about">
           <div class="max-width">
               <h2 class="title headline">About me</h2>
@@ -202,8 +219,8 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column left">
-                    <img src="">
+                  <div class="column right">
+                    <img src="images/contact.svg" width="300px">
                   </div>
           </div>
         </div>
