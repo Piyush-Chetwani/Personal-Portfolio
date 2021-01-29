@@ -335,6 +335,15 @@ section .title::after{
   background-color: #203647;
   color: white;
   transform: rotateY(180deg);
+  padding-top:60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+#flip a{
+  color:inherit;
+  font-weight: bold;
 }
 
 /* services section styling */
@@ -451,20 +460,30 @@ section .title::after{
     background: #203647;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 85%;
 }
 .skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .js::before{
+    width: 75%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .php::before{
     width: 70%;
 }
+.skills-content .right .mysql::before{
+    width: 90%;
+}
+
+/* #flip{
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+#flip a{
+  text-decoration: none;
+  color:grey;
+} */
 
 /* teams section styling */
 .teams .title::after{
@@ -800,6 +819,10 @@ footer span a:hover{
   color: white;
   transform: rotateY(180deg);
   height: 300px;
+  padding-top:60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
 }
 
 .ini-dark{
@@ -902,6 +925,21 @@ input {
 
 .toggle-wrapper:nth-child(6) {
   background: #c487de;
+}
+
+.skills .max-width ul li a{
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skills .max-width ul li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.carousel a{
+  color: inherit;
 }
 
 #toggle{
